@@ -12,7 +12,8 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import java.net.InetSocketAddress;
 
 public class EchoClient {
-    public static final String SERVER = "127.0.0.1";
+    //public static final String SERVER = "127.0.0.1";
+    public static final String SERVER = "panyi.xyz";
     public static final int PORT = 8899;
 
     private final String server;
